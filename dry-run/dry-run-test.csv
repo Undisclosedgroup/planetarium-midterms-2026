@@ -1,0 +1,3 @@
+contest_id,state,office,note
+TEST-001,XX,Test office,This is a lock dry-run test file. It is not a forecast.
+TEST-002,XX,Test office,Its only purpose is to check the public repository, the sha256 and the timestamps.

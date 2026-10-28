@@ -1,4 +1,10 @@
-# The forecast PDFs are not published yet: only their sha256 in each SHA256SUMS. Remove this rule at the launch.
-*.pdf
-# The dry run's test PDF is public already.
-!dry-run/dry-run-test.pdf
+# Until the launch this repository holds fingerprints only, never results: everything is ignored except the files
+# below. At the launch, replace this file so the forecast files can be added beside their SHA256SUMS.
+*
+!*/
+!README.md
+!.gitignore
+!SHA256SUMS
+!SHA256SUMS.ots
+# The dry run's test files are public already.
+!dry-run/*

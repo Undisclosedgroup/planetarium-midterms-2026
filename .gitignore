@@ -2,8 +2,8 @@
 # below. At the launch, replace this file so the forecast files can be added beside their SHA256SUMS.
 *
 !*/
-!README.md
-!.gitignore
+!/README.md
+!/.gitignore
 !SHA256SUMS
 !SHA256SUMS.ots
 # The dry run's test files are public already.

@@ -1,0 +1,4 @@
+# The forecast PDFs are not published yet: only their sha256 in each SHA256SUMS. Remove this rule at the launch.
+*.pdf
+# The dry run's test PDF is public already.
+!dry-run/dry-run-test.pdf

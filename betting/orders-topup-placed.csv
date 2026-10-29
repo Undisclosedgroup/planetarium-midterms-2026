@@ -1,0 +1,2 @@
+race,pick,ticker,limit,contracts,client_order_id,http,order_id,status,note,filled_contracts,fill_price,fees
+NY-H01,D: Chris Gallant,KXHOUSERACE-NY01-26-D,0.22,48,plnt26-topup-KXHOUSERACE-NY01-26-D,201,01a189a4-a070-7ef5-99ba-0785c66ff8ea,executed,,48,0.22,0.58

@@ -1,0 +1,38 @@
+race,pick,ticker,limit,contracts,client_order_id,http,order_id,status,note,filled_contracts,fill_price,fees
+IL-GOV,D: JB Pritzker,GOVPARTYIL-26-D,0.981,1018,plnt26-GOVPARTYIL-26-D,201,01a18998-5400-7b75-8a5f-0bb57f116da8,executed,,1018,0.981,1.33
+HOUSE,D: House control,CONTROLH-2026-D,0.918,1083,plnt26-CONTROLH-2026-D,201,01a18998-57e8-73fd-a0a5-fc8666421a4c,executed,,1083,0.918,5.71
+MA-GOV,D: Maura Healey,GOVPARTYMA-26-D,0.966,1032,plnt26-GOVPARTYMA-26-D,201,01a18998-57e8-7156-b4a2-bf6a9a9224ad,executed,,1032,0.966,2.37
+MN-H05,D: Ilhan Omar,KXHOUSERACE-MN05-26-D,0.967,1019,plnt26-KXHOUSERACE-MN05-26-D,201,01a18998-57e8-7cea-9b3c-46e685bc639e,executed,,1019,0.967,2.28
+NY-GOV,D: Kathy Hochul,GOVPARTYNY-26-D,0.961,820,plnt26-GOVPARTYNY-26-D,201,01a18998-5bd0-71bc-b706-509e1b6a75f4,executed,,820,0.9601,2.2
+NY-H01,D: Chris Gallant,KXHOUSERACE-NY01-26-D,0.22,2499,plnt26-KXHOUSERACE-NY01-26-D,201,01a18998-5bd0-7dc0-afea-52b87f8b7981,executed,,2499,0.22,30.02
+OH-SEN-S,Sherrod Brown,SENATEOHS-26-D,0.69,743,plnt26-SENATEOHS-26-D,201,01a18998-5bd0-757e-9dd8-3b9dbf6ee6ec,executed,,743,0.69,11.12
+SD-SEN,Mike Rounds,SENATESD-26-R,0.949,409,plnt26-SENATESD-26-R,201,01a18998-5fb8-7b8b-a4f8-be516045191c,executed,,409,0.949,1.39
+MO-H02,D: Fred Wellman,KXHOUSERACE-MO02-26-D,0.36,717,plnt26-KXHOUSERACE-MO02-26-D,201,01a18998-5fb8-7017-ba1a-8832115fe5ed,executed,,717,0.36,11.56
+TN-SEN,Bill Hagerty,SENATETN-26-R,0.966,270,plnt26-SENATETN-26-R,201,01a18998-5fb8-7fcd-b40b-b695e352c473,executed,,270,0.966,0.62
+AR-SEN,Tom Cotton,SENATEAR-26-R,0.964,219,plnt26-SENATEAR-26-R,201,01a18998-63a0-713e-835a-9a9655cf5740,executed,,219,0.9611,0.57
+OH-H10,R: Mike Turner,KXHOUSERACE-OH10-26-R,0.71,276,plnt26-KXHOUSERACE-OH10-26-R,201,01a18998-63a0-787e-9b3b-a4a4e7538153,executed,,276,0.71,3.98
+KS-SEN,Roger Marshall,SENATEKS-26-R,0.51,379,plnt26-SENATEKS-26-R,201,01a18998-63a0-7aee-93b2-26065e663c70,executed,,379,0.51,6.63
+OH-H07,R: Max Miller,KXHOUSERACE-OH07-26-R,0.16,1180,plnt26-KXHOUSERACE-OH07-26-R,201,01a18998-6788-7ff8-99d2-645c2c5ce42d,executed,,1180,0.16,11.1
+SC-H01,R: Jenny Costa Honeycutt,KXHOUSERACE-SC01-26-R,0.6,324,plnt26-KXHOUSERACE-SC01-26-R,201,01a18998-6788-7524-b0d4-ed09f36dde8e,executed,,324,0.5991,5.45
+FL-H22,R: Casey Askar,KXHOUSERACE-FL22-26-R,0.3,635,plnt26-KXHOUSERACE-FL22-26-R,201,01a18998-6788-7e50-bcf5-d225b7c260d0,executed,,635,0.3,9.33
+IA-SEN,Ashley Hinson,SENATEIA-26-R,0.53,365,plnt26-SENATEIA-26-R,201,01a18998-6b70-784b-8927-ace0118ca88a,executed,,365,0.53,6.36
+AK-SEN,R: Republican party,SENATEAK-26-R,0.32,596,plnt26-SENATEAK-26-R,201,01a18998-6b70-7590-941a-b1932f6ff89a,executed,,596,0.32,9.08
+OH-H15,R: Mike Carey,KXHOUSERACE-OH15-26-R,0.63,309,plnt26-KXHOUSERACE-OH15-26-R,201,01a18998-6b70-78ba-afe3-e40f3cd21b37,executed,,309,0.63,5.04
+MN-H01,R: Brad Finstad,KXHOUSERACE-MN01-26-R,0.63,309,plnt26-KXHOUSERACE-MN01-26-R,400,,,"{""error"": {""code"": ""insufficient_balance"", ""message"": ""insufficient balance""}}",,,
+CO-H05,R: Jeff Crank,KXHOUSERACE-CO05-26-R,0.59,329,plnt26-KXHOUSERACE-CO05-26-R,400,,,"{""error"": {""code"": ""insufficient_balance"", ""message"": ""insufficient balance""}}",,,
+GA-GOV,R: Rick Jackson,GOVPARTYGA-26-R,0.39,491,plnt26-GOVPARTYGA-26-R,400,,,"{""error"": {""code"": ""insufficient_balance"", ""message"": ""insufficient balance""}}",,,
+KY-H06,R: Ralph Alvarado,KXHOUSERACE-KY06-26-R,0.45,427,plnt26-KXHOUSERACE-KY06-26-R,400,,,"{""error"": {""code"": ""insufficient_balance"", ""message"": ""insufficient balance""}}",,,
+NE-SEN,Pete Ricketts,SENATENE-26-R,0.7,279,plnt26-SENATENE-26-R,400,,,"{""error"": {""code"": ""insufficient_balance"", ""message"": ""insufficient balance""}}",,,
+AL-GOV,R: Tommy Tuberville,GOVPARTYAL-26-R,0.939,181,plnt26-GOVPARTYAL-26-R,400,,,"{""error"": {""code"": ""insufficient_balance"", ""message"": ""insufficient balance""}}",,,
+VT-GOV,R: Phil Scott,GOVPARTYVT-26-R,0.76,98,plnt26-GOVPARTYVT-26-R,400,,,"{""error"": {""code"": ""insufficient_balance"", ""message"": ""insufficient balance""}}",,,
+ID-SEN,Jim Risch,SENATEID-26-R,0.948,73,plnt26-SENATEID-26-R,400,,,"{""error"": {""code"": ""insufficient_balance"", ""message"": ""insufficient balance""}}",,,
+NC-H09,R: Richard Hudson,KXHOUSERACE-NC09-26-R,0.69,92,plnt26-KXHOUSERACE-NC09-26-R,400,,,"{""error"": {""code"": ""insufficient_balance"", ""message"": ""insufficient balance""}}",,,
+MN-H01,R: Brad Finstad,KXHOUSERACE-MN01-26-R,0.63,309,plnt26-KXHOUSERACE-MN01-26-R,201,01a1899a-3c48-7670-8b24-8072ecedbc3b,executed,,309,0.63,5.04
+CO-H05,R: Jeff Crank,KXHOUSERACE-CO05-26-R,0.59,329,plnt26-KXHOUSERACE-CO05-26-R,201,01a1899a-4030-7d6f-a69a-80cee6936288,executed,,329,0.59,5.57
+GA-GOV,R: Rick Jackson,GOVPARTYGA-26-R,0.39,491,plnt26-GOVPARTYGA-26-R,201,01a1899a-4030-748b-b05e-d317834381d7,executed,,491,0.39,8.18
+KY-H06,R: Ralph Alvarado,KXHOUSERACE-KY06-26-R,0.45,427,plnt26-KXHOUSERACE-KY06-26-R,201,01a1899a-4030-7774-8e68-4d7245b452ec,executed,,427,0.45,7.4
+NE-SEN,Pete Ricketts,SENATENE-26-R,0.7,279,plnt26-SENATENE-26-R,201,01a1899a-4030-7344-a5db-f52b849525e4,executed,,279,0.7,4.1
+AL-GOV,R: Tommy Tuberville,GOVPARTYAL-26-R,0.939,181,plnt26-GOVPARTYAL-26-R,201,01a1899a-4418-7ce1-947a-5c8edd7fe674,executed,,181,0.939,0.73
+VT-GOV,R: Phil Scott,GOVPARTYVT-26-R,0.76,98,plnt26-GOVPARTYVT-26-R,201,01a1899a-4418-7647-b926-87d596f04ffc,executed,,98,0.76,1.25
+ID-SEN,Jim Risch,SENATEID-26-R,0.948,73,plnt26-SENATEID-26-R,201,01a1899a-4418-7d9f-933c-6771831ce8ad,executed,,73,0.948,0.25
+NC-H09,R: Richard Hudson,KXHOUSERACE-NC09-26-R,0.69,92,plnt26-KXHOUSERACE-NC09-26-R,201,01a1899a-4800-7c75-a8a8-339c890e8206,executed,,92,0.69,1.38

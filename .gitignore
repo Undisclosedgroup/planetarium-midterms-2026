@@ -8,3 +8,5 @@
 !SHA256SUMS.ots
 # The dry run's test files are public already.
 !dry-run/*
+# The betting rule and the scripts that apply it are public before any order.
+!betting/*

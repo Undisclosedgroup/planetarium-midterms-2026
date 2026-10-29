@@ -117,12 +117,13 @@ def main():
             st, d = call("GET", f"/portfolio/orders/{o['order_id']}", key=key)
             od = d.get("order", d)
             n = count(od, "fill_count") or 0
+            n = int(n) if n == int(n) else round(n, 2)  # Kalshi sells contracts in hundredths
             cost = (money(od, "taker_fill_cost") or 0) + (money(od, "maker_fill_cost") or 0)
             fees = (money(od, "taker_fees") or 0) + (money(od, "maker_fees") or 0)
-            o.update(status=od.get("status", st), filled_contracts=int(n), fill_price=round(cost / n, 4) if n else "",
-                     fees=round(fees, 2))
+            o.update(status=od.get("status", st), filled_contracts=n, fill_price=round(cost / n, 4) if n else "",
+                     fees=round(fees, 4))
             if o["ticker"] in by:
-                by[o["ticker"]].update(filled_contracts=int(n), fill_price=o["fill_price"])
+                by[o["ticker"]].update(filled_contracts=n, fill_price=o["fill_price"])
             spent += cost + fees
             time.sleep(0.15)
         for name, data in ((args.log, log), (args.sheet, rows)):
@@ -186,7 +187,7 @@ def main():
                 continue
             cid = f"{args.tag}-{r['ticker']}"
             # Create Order (V2): side "bid" buys YES; the legacy /portfolio/orders shape is deprecated
-            body = {"ticker": r["ticker"], "side": "bid", "count": str(int(r["contracts"])),
+            body = {"ticker": r["ticker"], "side": "bid", "count": f"{f(r['contracts']):.2f}",
                     "price": f"{f(r['limit']):.4f}", "time_in_force": "good_till_canceled", "expiration_time": EXPIRES,
                     "self_trade_prevention_type": "taker_at_cross", "client_order_id": cid}
             st, d = call("POST", "/portfolio/events/orders", body, key=key)

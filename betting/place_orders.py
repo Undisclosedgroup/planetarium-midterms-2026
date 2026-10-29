@@ -102,6 +102,7 @@ def main():
     mode.add_argument("--reconcile", action="store_true")
     ap.add_argument("--max-spend", type=float, default=10000)
     ap.add_argument("--log", default="orders-placed.csv")
+    ap.add_argument("--tag", default=TAG, help="client_order_id prefix; a top-up on a market already ordered needs a new one")
     args = ap.parse_args()
     rows = list(csv.DictReader(open(args.sheet)))
     key = load_key()
@@ -183,7 +184,7 @@ def main():
             if placed_cost + f(r["cost"]) > args.max_spend:
                 w.writerow(dict(race=r["race"], ticker=r["ticker"], note="skipped: spend cap"))
                 continue
-            cid = f"{TAG}-{r['ticker']}"
+            cid = f"{args.tag}-{r['ticker']}"
             # Create Order (V2): side "bid" buys YES; the legacy /portfolio/orders shape is deprecated
             body = {"ticker": r["ticker"], "side": "bid", "count": str(int(r["contracts"])),
                     "price": f"{f(r['limit']):.4f}", "time_in_force": "good_till_canceled", "expiration_time": EXPIRES,
